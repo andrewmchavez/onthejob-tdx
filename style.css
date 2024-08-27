@@ -1,0 +1,75 @@
+#body {
+    background-color: #000;
+}
+
+h1, h2, h3, h4 {
+    font-family: Arial, sans-serif;
+    color: #9e4545;
+    margin: 20px 0;
+}
+
+h1 {
+    color:#9e4545;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+#menu h1 {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+    .menu-description {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #aa8d8d;
+    }
+
+    p {
+        color:#aa8d8d;
+        line-height: 1.8;
+    }
+
+    p, h1, h2, h3, h4 {
+        margin: 15px 0;
+        padding: 0 10px;
+
+    }
+
+    #about h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    #location h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+   span {
+    color: #aa8d8d;
+   }
+
+   #note-description {
+    color: white;
+    font-weight: bold;
+   }
+
+   section ul li::marker {
+    color: white; 
+}
