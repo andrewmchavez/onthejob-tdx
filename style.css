@@ -70,6 +70,71 @@ h4 {
     font-weight: bold;
    }
 
-   section ul li::marker {
-    color: white; 
+
+#df-img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+/*error
+
+#df-description {
+text-align: center;
+    }
+*/
+   
+
+
+#site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
 }
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.social-media {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 15px;
+}
+
+.social-media a {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.social-icon {
+    width: 40px; 
+    height: 40px; 
+    transition: transform 0.3s ease;
+    object-fit: cover; 
+}
+
+.social-icon:hover {
+    transform: scale(1.1); 
+}
+
+
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+/* error
+#about-us-img, #about-us-img2 {
+    display: flex;
+    align-items: center;
+    padding: 10px; }
+    */
